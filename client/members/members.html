@@ -1,0 +1,13 @@
+<template name="Members">
+<span id="members">
+<h1>Members</h1>
+<div class="row">
+{{#each member}}
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <a href="#" class="alert-name">{{this}}</a>
+    </div>
+{{/each}}
+</div>
+<h1><a href="/">Home</a></h1>
+</span>
+</template>
